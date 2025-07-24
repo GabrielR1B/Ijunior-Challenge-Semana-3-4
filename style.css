@@ -70,7 +70,7 @@ body {
 }
 
 .card-number {
-  top: 140px;
+  top: 120px;
   left: 20px;
   font-size: 30px;
   letter-spacing: 3px;
@@ -78,17 +78,17 @@ body {
 }
 
 .card-name {
-  bottom: 30px;
+  bottom: 5px;
   left: 20px;
 }
 
 .card-expiry {
-  bottom: 30px;
+  bottom: 5px;
   right: 30px;
 }
 
 .card-cvc {
-  bottom: 115px;
+  bottom: 100px;
   right: 55px;
 }
 
@@ -156,4 +156,12 @@ body {
   font-size: 20px;
   border: none;
   cursor: pointer;
+}
+
+/* Mensagens de Erro */
+.error-message {
+  color: var(--color-input-error);
+  text-transform: none;
+  font-size: 14px;
+  margin-top: 5px;
 }
