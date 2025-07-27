@@ -27,7 +27,7 @@ body {
 }
 
 /* Container dos Cards */
-.card-container {
+.container-left {
   padding: 20%;
   grid-column: 1;
   grid-row: 1 / 2;
